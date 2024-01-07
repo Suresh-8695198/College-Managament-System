@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600&family=Inspiration&family=Mate+SC&family=Poppins:ital,wght@0,300;0,500;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600&family=Inspiration&family=Mate+SC&family=Poppins:ital,wght@0,300;0,500;0,700;1,400&family=Russo+One&display=swap');
+*{
+
+    text-decoration: none;
+    list-style: none;
+}
+nav{
+  
+     background: #ff4757;
+     height: 80px;
+     width:100%;
+}
+.vlogo{
+    margin-top: 20px;
+    height: 5vh;
+    width:4vw;
+  display: inline-block;
+
+ }
+
+label.logo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-right: 15px;
+    color: white;
+   
+    font-size: 30px;
+    line-height: 80px;
+   
+    font-weight: bold;
+
+}
+nav ul{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    float:right;
+    word-spacing: 1px;
+   font-weight: bold;
+    margin-right: 20px;
+    
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 6px ;
+}
+nav ul li a{
+    color: white;
+    text-transform: uppercase;
+    padding: 2px 2px;
+   
+    font-size:14px;
+
+}
+a.active,a:hover{
+  
+    background-color:#05c46b;
+   
+    transition: .5s;
+    }
+html{
+    background-color:#f1f2f6;
+}
+body{
+
+    font-family: 'Chakra Petch', sans-serif;
+    width:800px;
+    margin:0 auto;
+    background-color: white ;
+    text-align: center;
+    }
+  div .d{
+       text-align: justify;
+       display: grid;
+  }
+   
+  
+.login{
+    width:340px;
+    height:180px;
+    padding: 70px;
+    background-color:  #ffffff;
+    margin-left: 180px;
+    margin-top: 10px;
+   
+    box-shadow: 1px 1px 8px 1px black  ;
+ 
+}
+h1{
+    color:#ff4757 ;
+}
+.btn{
+    font-family: 'Poppins', sans-serif;
+    background-color: #34ace0;
+    font-weight: bold;
+    color:white;
+    width: 100px;
+    height: 40px;
+    padding: 3px;
+    letter-spacing: 1px;
+    border-radius: 10px;
+   border: darkblue;
+   box-shadow:1px 1px 1px 1px #030003;
+
+}
+.btn:hover{
+    background-color: #05c46b;
+}
+.uname,.pass{
+    color:#2f3542;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Inspiration', cursive;
+    font-family: 'Mate SC', serif;
+    font-family: 'Poppins', sans-serif;
+  font-family: 'Russo One', sans-serif;
+}
+footer{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-weight: bold;
+    color:rgb(17, 17, 17);
+    background-color: #ff4757;
+     height: 4vmin;
+    color: white;
+}
+footer :any-link{
+    color: #1a6d03;
+}
+.input{
+    
+    font-size: large;
+    border-radius:5px;
+    height: 25px;
+   
+}
+.tbar{
+    height: 40px;
+    width: 800px;
+    background-color:#ff4757 ;
+}

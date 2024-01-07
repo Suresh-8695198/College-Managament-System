@@ -1,0 +1,49 @@
+<?php
+  include "database.php"
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Management System</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body class="black">
+    <nav>
+
+        <label  ><img class=" vlogo"src="img/vylogo.png" ></label>
+        <label class="logo">VYSYA COLLEGE</label>
+        <ul>
+        <li><a class="active" href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Admin Login</a></li>
+        <li><a href="#">Staff Login</a></li>    
+        <li><a href="#">Contact US</a></li>    
+    </ul>
+    </nav>
+    <img src="img/clg.jpg" height="250" width="800" alt="Invlalid Image">
+    <h1 class="heading">Admin Login</h1>
+    <div class="login">
+       
+    <div class="log">
+        
+        <form method="post" action='<?php echo $_SERVER["PHP_SELF"];?>'>
+        <div class="d">       
+         <label class="uname">USER NAME</label>
+        <input type="text" name="aname" required class="input" ><br><br>
+        </div> 
+        <div class="d">  
+        <label class="pass">PASSWORD</label>
+        <input type="password" name="apass" required class="input"><br><br>
+        </div>
+        <button type="submit" class="btn" name="login">LOGIN HERE</button>
+        </form>
+    </div>
+    </div>
+    <div class="footer">
+        <footer><p>Copyright &copy; <a href="">Suresh G</a></p></footer>
+    </div>
+</body>
+</html>
